@@ -1,3 +1,4 @@
+import { NavLink } from 'react-router-dom';
 const Home = () => {
   return (
     <div>
@@ -67,12 +68,10 @@ const Home = () => {
             {/* Add more product cards or load dynamically */}
           </div>
           <div className="text-center mt-10">
-            <a
-              href="shop.html"
-              className="text-white bg-black px-6 py-3 hover:bg-gray-800 rounded-lg"
-            >
-              View Full Collection
-            </a>
+            
+            <NavLink to="/Shop"  className="text-white bg-black px-6 py-3 hover:bg-gray-800 rounded-lg" >
+            View Full Collection
+            </NavLink>
           </div>
         </section>
       </div>
