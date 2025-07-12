@@ -21,6 +21,9 @@ const Header = () => {
             <NavLink to="/Contact" className="hover:text-gray-500 block">
               Contact
             </NavLink>
+            <NavLink to="/Cart" className="hover:text-gray-500 block">
+              Cart
+            </NavLink>
           </nav>
         </header>
       </div>
