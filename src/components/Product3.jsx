@@ -2,6 +2,7 @@ import React from 'react'
 
 const Product3 = () => {
   return (
+    <main className="px-8 py-16 max-w-5xl mx-auto">
     <div className="grid md:grid-cols-2 gap-10">
   <div>
     <img src="https://image.hm.com/assets/hm/79/6c/796cdecdc61d791a0aad0a52ad401cc0798be506.jpg?imwidth=1260" alt="Cream Chinos" className="w-full rounded-lg shadow-md" />
@@ -21,7 +22,7 @@ const Product3 = () => {
     <button className="bg-black text-white px-6 py-3 text-sm uppercase tracking-wide hover:bg-gray-800 rounded-lg">Add to Cart</button>
   </div>
 </div>
-
+</main>
   )
 }
 

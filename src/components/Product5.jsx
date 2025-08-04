@@ -2,6 +2,7 @@ import React from 'react'
 
 const Product5 = () => {
   return (
+    <main className="px-8 py-16 max-w-5xl mx-auto">
     <div className="grid md:grid-cols-2 gap-10">
   <div>
     <img src="https://image.hm.com/assets/hm/98/22/98229fb844ba795513d06369c1fd34477301bdab.jpg?imwidth=1260" alt="Silk Tie" className="w-full rounded-lg shadow-md" />
@@ -21,7 +22,7 @@ const Product5 = () => {
     <button className="bg-black text-white px-6 py-3 text-sm uppercase tracking-wide hover:bg-gray-800 rounded-lg">Add to Cart</button>
   </div>
 </div>
-
+</main>
   )
 }
 

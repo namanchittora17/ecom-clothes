@@ -2,6 +2,7 @@ import React from 'react'
 
 const Product6 = () => {
   return (
+    <main className="px-8 py-16 max-w-5xl mx-auto">
         <div className="grid md:grid-cols-2 gap-10">
   <div>
     <img src="https://assets.ajio.com/medias/sys_master/root/20250129/3BDs/679a1636bc78b543a906dc9a/-473Wx593H-469699734-green-MODEL.jpg?imwidth=1260" alt="CASIO
@@ -24,7 +25,7 @@ Men Water-Resistant Analogue Watch-AQ-230A-3AMQYDF" className="w-full rounded-lg
     <button className="bg-black text-white px-6 py-3 text-sm uppercase tracking-wide hover:bg-gray-800 rounded-lg">Add to Cart</button>
   </div>
 </div>
-
+</main>
   )
 }
 

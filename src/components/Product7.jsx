@@ -2,6 +2,7 @@ import React from 'react'
 
 const Product7 = () => {
   return (
+    <main className="px-8 py-16 max-w-5xl mx-auto">
     <div className="grid md:grid-cols-2 gap-10">
   <div>
     <img src="https://www.prada.com/content/dam/pradabkg_products/2/2VC/2VC018/9Z2F0002/2VC018_9Z2_F0002_V_OOO_SLF.jpg/_jcr_content/renditions/cq5dam.web.hebebed.2400.2400.jpg" alt="Parada - Saffiano Leather Travel Bag" className="w-full rounded-lg shadow-md" />
@@ -22,6 +23,7 @@ const Product7 = () => {
     <button className="bg-black text-white px-6 py-3 text-sm uppercase tracking-wide hover:bg-gray-800 rounded-lg">Add to Cart</button>
   </div>
 </div>
+</main>
   )
 }
 

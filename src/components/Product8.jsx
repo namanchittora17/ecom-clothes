@@ -2,6 +2,7 @@ import React from 'react'
 
 const Product8 = () => {
   return (
+    <main className="px-8 py-16 max-w-5xl mx-auto">
     <div className="grid md:grid-cols-2 gap-10">
   <div>
     <img src="https://www.birkenstock.in/cdn/shop/products/51793_8e6aa142-8e6b-45e5-838a-e02558667881.jpg?v=1685373500&width=2000" alt="BIRKENSTOCK-Arizona Birko-Flor" className="w-full rounded-lg shadow-md" />
@@ -21,7 +22,7 @@ const Product8 = () => {
     <button className="bg-black text-white px-6 py-3 text-sm uppercase tracking-wide hover:bg-gray-800 rounded-lg">Add to Cart</button>
   </div>
 </div>
-
+</main>
   )
 }
 
