@@ -1,4 +1,3 @@
-import { NavLink } from "react-router-dom";
 const Shop = () => {
   return (
     <>
@@ -16,7 +15,9 @@ const Shop = () => {
             </h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
               {/* Product 1 */}
-              <NavLink to="/p1" className="border rounded-lg p-4 text-center product-card block">
+              <a
+                href="/tweed-blazer"
+                className="border rounded-lg p-4 text-center product-card block">
                 <img
                   className="rounded-lg"
                   src="https://image.hm.com/assets/hm/39/0b/390bee10c8153d8560a0c4b38f03106845f93709.jpg?imwidth=1260"
@@ -24,10 +25,10 @@ const Shop = () => {
                 />
                 <h4 className="text-lg font-semibold">Tweed Blazer</h4>
                 <p className="text-gray-600">₹4,999</p>
-              </NavLink>
+              </a>
               {/* Product 2 */}
               <a
-                href="product2.html"
+                href="/ivory-shirt"
                 className="border rounded-lg p-4 text-center product-card block"
               >
                 <img
@@ -40,7 +41,7 @@ const Shop = () => {
               </a>
               {/* Product 3 */}
               <a
-                href="product3.html"
+                href="/cream-chinos"
                 className="border rounded-lg p-4 text-center product-card block"
               >
                 <img
@@ -53,7 +54,7 @@ const Shop = () => {
               </a>
               {/* Product 4 */}
               <a
-                href="product4.html"
+                href="/breasted-coat"
                 className="border rounded-lg p-4 text-center product-card block"
               >
                 <img
@@ -66,7 +67,7 @@ const Shop = () => {
               </a>
               {/* Product 5 */}
               <a
-                href="product5.html"
+                href="/silk-tie"
                 className="border rounded-lg p-4 text-center product-card block"
               >
                 <img
@@ -79,7 +80,7 @@ const Shop = () => {
               </a>
               {/* Product 6 */}
               <a
-                href="product6.html"
+                href="/casio-watch"
                 className="border rounded-lg p-4 text-center product-card block"
               >
                 <img
@@ -95,7 +96,7 @@ Men Water-Resistant Analogue Watch-AQ-230A-3AMQYDF"
               </a>
               {/* Product 7 */}
               <a
-                href="product7.html"
+                href="/bag"
                 className="border rounded-lg p-4 text-center product-card block"
               >
                 <img
@@ -110,7 +111,7 @@ Men Water-Resistant Analogue Watch-AQ-230A-3AMQYDF"
               </a>
               {/* Product 8 */}
               <a
-                href="product8.html"
+                href="/birkenstock-arizona"
                 className="border rounded-lg p-4 text-center product-card block"
               >
                 <img
@@ -125,7 +126,7 @@ Men Water-Resistant Analogue Watch-AQ-230A-3AMQYDF"
               </a>
               {/* Product 9 */}
               <a
-                href="product9.html"
+                href="/poplin-shirt"
                 className="border rounded-lg p-4 text-center product-card block"
               >
                 <img
@@ -138,7 +139,7 @@ Men Water-Resistant Analogue Watch-AQ-230A-3AMQYDF"
               </a>
               {/* Product 10 */}
               <a
-                href="product10.html"
+                href="/cropped-trousers"
                 className="border rounded-lg p-4 text-center product-card block"
               >
                 <img

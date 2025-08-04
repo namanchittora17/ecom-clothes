@@ -69,9 +69,9 @@ const Home = () => {
           </div>
           <div className="text-center mt-10">
             
-            <NavLink to="/Shop"  className="text-white bg-black px-6 py-3 hover:bg-gray-800 rounded-lg" >
+            <a href="/Shop"  className="text-white bg-black px-6 py-3 hover:bg-gray-800 rounded-lg" >
             View Full Collection
-            </NavLink>
+            </a>
           </div>
         </section>
       </div>
