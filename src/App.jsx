@@ -20,10 +20,11 @@ import Product8 from './components/Product8';
 import Product9 from './components/Product9';
 import Product10 from './components/Product10';
 
+import { CartProvider } from "./components/CartContext";
 
 const App = () => {
   return (
-    <div>
+      <CartProvider>
       <BrowserRouter>
       < Header/>
         <Routes>
@@ -46,7 +47,7 @@ const App = () => {
         </Routes>
         <Footer/>
       </BrowserRouter>
-    </div>
+      </CartProvider>
   );
 };
 export default App;

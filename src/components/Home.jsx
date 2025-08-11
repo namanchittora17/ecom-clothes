@@ -29,6 +29,8 @@ const Home = () => {
           </h3>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
             {/* Sample product previews */}
+            {/* Product1 */}
+            <a href="/tweed-blazer">
             <div className="border rounded-lg p-4 text-center">
               <img
                 className="rounded-lg"
@@ -38,6 +40,9 @@ const Home = () => {
               <h4 className="text-lg font-semibold">Tweed Blazer</h4>
               <p className="text-gray-600">₹4,999</p>
             </div>
+            </a>
+             {/* Product2 */}
+             <a href="/ivory-shirt">
             <div className="border rounded-lg p-4 text-center">
               <img
                 className="rounded-lg"
@@ -47,6 +52,9 @@ const Home = () => {
               <h4 className="text-lg font-semibold">Ivory Oxford Shirt</h4>
               <p className="text-gray-600">₹2,499</p>
             </div>
+            </a>
+             {/* Product3 */}
+             <a href="/cream-chinos">
             <div className="border rounded-lg p-4 text-center">
               <img
                 className="rounded-lg"
@@ -56,6 +64,9 @@ const Home = () => {
               <h4 className="text-lg font-semibold">Cream Chinos</h4>
               <p className="text-gray-600">₹2,799</p>
             </div>
+            </a>
+             {/* Product4 */}
+             <a href="/breasted-coat">
             <div className="border rounded-lg p-4 text-center">
               <img
                 className="rounded-lg"
@@ -65,6 +76,7 @@ const Home = () => {
               <h4 className="text-lg font-semibold">Double-Breasted Coat</h4>
               <p className="text-gray-600">₹6,999</p>
             </div>
+            </a>
             {/* Add more product cards or load dynamically */}
           </div>
           <div className="text-center mt-10">
