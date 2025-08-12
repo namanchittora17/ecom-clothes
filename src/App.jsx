@@ -21,6 +21,8 @@ import Product9 from './components/Product9';
 import Product10 from './components/Product10';
 
 import { CartProvider } from "./components/CartContext";
+import Login from './components/Login';
+import LoginRegister from './components/LoginRegister';
 
 const App = () => {
   return (
@@ -33,7 +35,8 @@ const App = () => {
         <Route path='/about' element={<About/>}/>
         <Route path='/contact' element={<Contact/>}/>
         <Route path='/cart' element={<Cart/>}/>
-         <Route path='/' element={<Home/>}/>
+         <Route path='/' element={<Login/>}/>
+         <Route path='login' element={<Login/>}/>
          <Route path='/tweed-blazer' element={<Product1/>}/>
          <Route path='/ivory-shirt' element={<Product2/>}/>
          <Route path='/cream-chinos' element={<Product3/>}/>
@@ -44,6 +47,7 @@ const App = () => {
          <Route path='/birkenstock-arizona' element={<Product8/>}/>
          <Route path='/poplin-shirt' element={<Product9/>}/>
          <Route path='/cropped-trousers' element={<Product10/>}/>
+         <Route path="/loginregister" element={<LoginRegister/>}/>
         </Routes>
         <Footer/>
       </BrowserRouter>
