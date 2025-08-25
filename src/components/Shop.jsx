@@ -1,6 +1,10 @@
+import Footer from "./Footer";
+import Header from "./Header";
+
 const Shop = () => {
   return (
     <>
+    < Header />
       <div>
         <div>
           <style
@@ -156,6 +160,7 @@ Men Water-Resistant Analogue Watch-AQ-230A-3AMQYDF"
           </section>
         </div>
       </div>
+      < Footer />
     </>
   );
 };

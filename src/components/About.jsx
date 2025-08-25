@@ -1,6 +1,10 @@
+import Footer from "./Footer";
+import Header from "./Header";
+
 export const About = () => {
   return (
       <div>
+        < Header />
         <section className="max-w-3xl mx-auto px-4 py-20">
           <h2 className="text-4xl font-bold mb-6 text-center">
             About Heir &amp; Heritage
@@ -54,6 +58,7 @@ export const About = () => {
             <b>Heir &amp; Heritage — Where Legacy Meets Style.</b>
           </p>
         </section>
+        < Footer />
       </div>
   );
 };

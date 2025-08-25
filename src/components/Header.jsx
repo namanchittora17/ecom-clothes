@@ -1,4 +1,5 @@
 import { NavLink } from "react-router-dom";
+import { ShoppingCart } from "lucide-react";
 const Header = () => {
   return (
     <>
@@ -22,7 +23,7 @@ const Header = () => {
               Contact
             </NavLink>
             <NavLink to="/Cart" className="hover:text-gray-500 block">
-              Cart
+            <ShoppingCart size={22} />
             </NavLink>
           </nav>
         </header>

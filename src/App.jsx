@@ -28,7 +28,7 @@ const App = () => {
   return (
       <CartProvider>
       <BrowserRouter>
-      < Header/>
+      {/* < Header/> */}
         <Routes>
         <Route path='/home' element={<Home/>}/>
         <Route path='/shop' element={<Shop/>}/>
@@ -49,7 +49,7 @@ const App = () => {
          <Route path='/cropped-trousers' element={<Product10/>}/>
          <Route path="/loginregister" element={<LoginRegister/>}/>
         </Routes>
-        <Footer/>
+        {/* <Footer/> */}
       </BrowserRouter>
       </CartProvider>
   );

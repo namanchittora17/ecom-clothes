@@ -1,11 +1,14 @@
 import { NavLink } from 'react-router-dom';
+import Header from './Header';
+import Footer from './Footer';
 const Home = () => {
   return (
     <div>
+      < Header />
       <div>
         {/* Hero Section */}
         <section
-          style={{ backgroundColor: "#b6ad8e" }}
+          // style={{ backgroundColor: "#b6ad8e" }}
           className="text-center py-20 px-4 bg-gray-50"
         >
           <h2 className="text-5xl font-bold mb-4">The Old Money Collection</h2>
@@ -87,6 +90,7 @@ const Home = () => {
           </div>
         </section>
       </div>
+      < Footer />
     </div>
   );
 };

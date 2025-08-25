@@ -1,6 +1,10 @@
+import Footer from "./Footer";
+import Header from "./Header";
+
 const Contact = () => {
   return (
     <div>
+      < Header />
       <section className="max-w-2xl mx-auto px-4 py-20">
         <h2 className="text-4xl font-bold mb-6 text-center">Get in Touch</h2>
         <form className="space-y-6">
@@ -43,6 +47,7 @@ const Contact = () => {
           </button>
         </form>
       </section>
+      < Footer />
     </div>
   );
 };
