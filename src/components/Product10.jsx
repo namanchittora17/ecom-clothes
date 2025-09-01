@@ -1,5 +1,7 @@
 import React from "react";
 import { useCart } from "./CartContext";
+import Header from "./Header";
+import Footer from "./Footer";
 
 function Product10() {
   const { addToCart } = useCart();
@@ -13,6 +15,8 @@ function Product10() {
   };
 
   return (
+    <>
+    < Header />
     <main className="px-8 py-16 max-w-5xl mx-auto">
       <div className="grid md:grid-cols-2 gap-10">
         <div>
@@ -46,6 +50,8 @@ function Product10() {
         </div>
       </div>
     </main>
+    < Footer/>
+   </>
   );
 }
 
