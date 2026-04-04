@@ -30,62 +30,67 @@ const Home = () => {
           <h3 className="text-3xl font-bold mb-6 text-center">
             Featured Products
           </h3>
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
-            {/* Sample product previews */}
+          <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-5">
             {/* Product1 */}
             <a href="/tweed-blazer">
-            <div className="border rounded-lg p-4 text-center">
-              <img
-                className="rounded-lg"
-                src="https://image.hm.com/assets/hm/39/0b/390bee10c8153d8560a0c4b38f03106845f93709.jpg?imwidth=1260"
-                alt="Blazer"
-              />
-              <h4 className="text-lg font-semibold">Tweed Blazer</h4>
-              <p className="text-gray-600">₹4,999</p>
-            </div>
+              <div className="border rounded-lg p-3 text-center overflow-hidden transition-transform duration-300 ease-in-out hover:-translate-y-1 hover:shadow-lg">
+                <div className="overflow-hidden rounded-md">
+                  <img
+                    className="rounded-md w-full transition-transform duration-300 ease-in-out hover:scale-110"
+                    src="https://image.hm.com/assets/hm/39/0b/390bee10c8153d8560a0c4b38f03106845f93709.jpg?imwidth=1260"
+                    alt="Blazer"
+                  />
+                </div>
+                <h4 className="text-sm font-semibold mt-2">Tweed Blazer</h4>
+                <p className="text-gray-600 text-sm">₹4,999</p>
+              </div>
             </a>
-             {/* Product2 */}
-             <a href="/ivory-shirt">
-            <div className="border rounded-lg p-4 text-center">
-              <img
-                className="rounded-lg"
-                src="https://image.hm.com/assets/hm/9f/3e/9f3e5b6840b1a7809717e2012e1ce3933204a52a.jpg?imwidth=1260"
-                alt="Shirt"
-              />
-              <h4 className="text-lg font-semibold">Ivory Oxford Shirt</h4>
-              <p className="text-gray-600">₹2,499</p>
-            </div>
+            {/* Product2 */}
+            <a href="/ivory-shirt">
+              <div className="border rounded-lg p-3 text-center overflow-hidden transition-transform duration-300 ease-in-out hover:-translate-y-1 hover:shadow-lg">
+                <div className="overflow-hidden rounded-md">
+                  <img
+                    className="rounded-md w-full transition-transform duration-300 ease-in-out hover:scale-110"
+                    src="https://image.hm.com/assets/hm/9f/3e/9f3e5b6840b1a7809717e2012e1ce3933204a52a.jpg?imwidth=1260"
+                    alt="Shirt"
+                  />
+                </div>
+                <h4 className="text-sm font-semibold mt-2">Ivory Oxford Shirt</h4>
+                <p className="text-gray-600 text-sm">₹2,499</p>
+              </div>
             </a>
-             {/* Product3 */}
-             <a href="/cream-chinos">
-            <div className="border rounded-lg p-4 text-center">
-              <img
-                className="rounded-lg"
-                src="https://image.hm.com/assets/hm/79/6c/796cdecdc61d791a0aad0a52ad401cc0798be506.jpg?imwidth=1260"
-                alt="Trousers"
-              />
-              <h4 className="text-lg font-semibold">Cream Chinos</h4>
-              <p className="text-gray-600">₹2,799</p>
-            </div>
+            {/* Product3 */}
+            <a href="/cream-chinos">
+              <div className="border rounded-lg p-3 text-center overflow-hidden transition-transform duration-300 ease-in-out hover:-translate-y-1 hover:shadow-lg">
+                <div className="overflow-hidden rounded-md">
+                  <img
+                    className="rounded-md w-full transition-transform duration-300 ease-in-out hover:scale-110"
+                    src="https://image.hm.com/assets/hm/79/6c/796cdecdc61d791a0aad0a52ad401cc0798be506.jpg?imwidth=1260"
+                    alt="Trousers"
+                  />
+                </div>
+                <h4 className="text-sm font-semibold mt-2">Cream Chinos</h4>
+                <p className="text-gray-600 text-sm">₹2,799</p>
+              </div>
             </a>
-             {/* Product4 */}
-             <a href="/breasted-coat">
-            <div className="border rounded-lg p-4 text-center">
-              <img
-                className="rounded-lg"
-                src="https://image.hm.com/assets/hm/25/41/2541605008b96e486c16af0710da1d1af5a97b09.jpg?imwidth=1260"
-                alt="Coat"
-              />
-              <h4 className="text-lg font-semibold">Double-Breasted Coat</h4>
-              <p className="text-gray-600">₹6,999</p>
-            </div>
+            {/* Product4 */}
+            <a href="/breasted-coat">
+              <div className="border rounded-lg p-3 text-center overflow-hidden transition-transform duration-300 ease-in-out hover:-translate-y-1 hover:shadow-lg">
+                <div className="overflow-hidden rounded-md">
+                  <img
+                    className="rounded-md w-full transition-transform duration-300 ease-in-out hover:scale-110"
+                    src="https://image.hm.com/assets/hm/25/41/2541605008b96e486c16af0710da1d1af5a97b09.jpg?imwidth=1260"
+                    alt="Coat"
+                  />
+                </div>
+                <h4 className="text-sm font-semibold mt-2">Double-Breasted Coat</h4>
+                <p className="text-gray-600 text-sm">₹6,999</p>
+              </div>
             </a>
-            {/* Add more product cards or load dynamically */}
           </div>
           <div className="text-center mt-10">
-            
-            <a href="/Shop"  className="text-white bg-black px-6 py-3 hover:bg-gray-800 rounded-lg" >
-            View Full Collection
+            <a href="/Shop" className="text-white bg-black px-6 py-3 hover:bg-gray-800 rounded-lg">
+              View Full Collection
             </a>
           </div>
         </section>
